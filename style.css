@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: black;
+}
+
+.main h1 {
+    font-size: 140px;
+    font-weight: 900;
+    position: relative;
+    top: 400px;
+    /* z-index: 99; */
+    color: rgb(0, 0, 0);
+}
+
+.main h1::before {
+    content: "હર હર મહાદેવ";
+    position: absolute;
+    color: rgba(125, 94, 2, 0.663));
+    top: -7px;
+    left: 311px;
+    /* -webkit-text-stroke: 2px rgb(238, 128, 128); */
+    text-shadow: rgb(229, 202, 93) 5px 0 10px;
+    z-index: 1;
+}
